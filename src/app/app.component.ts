@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  logo = '../assets/logoBig.png';
+  topcirc = '../assets/dottedCircle.png';
+  bottomcirc = '../assets/smallDottedCircle.png';
+  height = 0;
+  width = 0;
+  
+  onResize(event) {
+    this.width = event.target.innerWidth;
+    this.height = event.targe.innerHeight;
+  }
 }

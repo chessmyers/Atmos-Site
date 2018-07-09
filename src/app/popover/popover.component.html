@@ -1,0 +1,5 @@
+<div class="content" [@popoverState]="state" [style.width]="popwidth" [style.height]="popheight">
+<div class="closebutton"><a href="#" ><img [src]="closeicon" (click)="closePopup()"></a></div>
+<div [innerHTML]="innerContent"></div>
+
+</div>

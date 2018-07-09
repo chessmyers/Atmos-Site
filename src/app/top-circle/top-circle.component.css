@@ -1,0 +1,63 @@
+.content {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    margin: 0px;
+}
+
+.bigcircle {
+    right:0px;
+    top:0px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255,255,255,0.3);
+    -moz-border-bottom-left-radius: 100%;
+    -webkit-border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    
+}
+
+.dottedcircle {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border-color: azure;
+    border-style: dashed;
+    -moz-border-bottom-left-radius: 100%;
+    -webkit-border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 460px;
+    height: 460px;
+}
+
+.contacts {
+    right: 455px;
+    top:8px;
+    position: absolute;
+}
+
+.images {
+    right:420px;
+    top:160px;
+    position:absolute;
+}
+
+.location {
+    right: 330px;
+    top:300px;
+    position: absolute;
+}
+
+.star {
+    right: 195px;
+    top: 400px;
+    position: absolute;
+    
+}
+
+.film {
+    right:8px;
+    top:452px;
+    position: absolute;
+}

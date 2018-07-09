@@ -1,0 +1,34 @@
+<div class="content">
+<img [src]="topcirc">
+<div class="bigcircle" (window:resize)="onResize($event)" [style.width]="circleWidth" [style.height]="circleHeight"></div>
+<!--<div class="dottedcircle"></div>-->
+    
+    
+<div class="contacts">
+    <a href="#" alt="Contacts">
+        <img [src]="contactsicon" [@buttonState1]="state" (mouseover)="onAnimate(1)" (mouseleave)="onAnimate(1)" (click)="onClicked(1)">
+    </a>
+</div>
+<div class="film">
+    <a href="#" alt="Videos">
+        <img [src]="filmicon"  [@buttonState2]="state" (mouseover)="onAnimate(2)" (mouseleave)="onAnimate(2)" (click)="onClicked(2)">
+    </a>
+</div>
+<div class="images">
+    <a href="#" alt="Images">
+        <img [src]="imagesicon"  [@buttonState3]="state" (mouseover)="onAnimate(3)" (mouseleave)="onAnimate(3)" (click)="onClicked(3)">
+    </a>
+</div>
+<div class="location">
+    <a href="#" alt="Location">
+        <img [src]="locationicon"  [@buttonState4]="state" (mouseover)="onAnimate(4)" (mouseleave)="onAnimate(4)" (click)="onClicked(4)">
+    </a>
+</div>
+<div class="star">
+    <a href="#" alt="Featured Content">
+        <img [src]="staricon"  [@buttonState5]="state" (mouseover)="onAnimate(5)" (mouseleave)="onAnimate(5)" (click)="onClicked(5)">
+    </a>
+</div>
+    
+    
+</div>

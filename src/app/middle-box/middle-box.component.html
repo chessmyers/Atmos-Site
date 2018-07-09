@@ -1,0 +1,13 @@
+
+<div class="container content">
+    <div class="row">
+        <div class="col-xs-12">
+            <a href="#"><img class="expand" [src]="expandicon" (click)="openPopup()"></a>
+
+            <div [@contentState]="state" (@contentState.done)="changeState()" [innerHTML]="innerContent">            
+            
+            </div>
+
+        </div>
+    </div>
+</div>

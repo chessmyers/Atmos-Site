@@ -1,0 +1,10 @@
+<div class="content">
+<img [src]="bottomcirc">
+<div class="smallcircle" (window:resize)="onResize($event)"></div>
+<div class="phone">
+    <a href="tel:310-210-7356"><img [src]="phoneicon" alt="Call Atmos" [@bState1]="state" (mouseover)="onAnimate(1)" (mouseleave)="onAnimate(1)"></a>
+</div>
+<div class="email">
+    <a href="mailto:info@atmosinventive.com?subject=Atmos%20Inventive%20Inquiry"><img [src]="emailicon" alt="Email Atmos" [@bState2]="state" (mouseover)="onAnimate(2)" (mouseleave)="onAnimate(2)"></a>
+</div>
+</div>
